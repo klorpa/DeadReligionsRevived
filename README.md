@@ -8,7 +8,7 @@ Revive the ancient Egyptian Pantheon and reform the Kingdom of Kemet, or go back
 If you would like to support development of the mod, please visit my Patreon and pledge your support!
 [url=https://www.patreon.com/deadreligionsrevived][img]https://i.imgur.com/zNzc09Y.png[/img][/url]
 
-[img]https://i.imgur.com/EOu8gRW.png[/img]
+!https://i.imgur.com/EOu8gRW.png
 
 #Features
 	* Revive the ancient faiths of your ancestors and usher in an renewed era of religious fervor and reformation
@@ -19,7 +19,7 @@ If you would like to support development of the mod, please visit my Patreon and
 	* Expanded Hellenic, Jewish, Zoroastrian, Ásatrú, and other pagan flavour
 	* *More to come...*
 
-[img]https://i.imgur.com/EOu8gRW.png[/img]
+!https://i.imgur.com/EOu8gRW.png
 
 #Current Update
 ##Religions
