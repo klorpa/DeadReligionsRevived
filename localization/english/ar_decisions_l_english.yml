@@ -1,0 +1,158 @@
+﻿l_english:
+ convert_kemetism_decision:0 "Revive Kemetism"
+ convert_kemetism_decision_desc:0 "The Kemetic gods are among the oldest in the world, and we have been led astray by the cross and the moon."
+ convert_kemetism_decision_confirm:0 "Revive the Kemetic Pantheon"
+ convert_kemetism_decision_tooltip:0 "Revives the Kemetic Pantheon"
+
+ convert_atenist_decision:0 "Revive the cult of Aten"
+ convert_atenist_decision_desc:0 "The Kemetic god of Aten was the first god to have a monotheistic following - perhaps he is deserving of our worship."
+ convert_atenist_decision_confirm:0 "Revive the Atenist Cult"
+ convert_atenist_decision_tooltip:0 "Revives the Atenist Cult"
+
+ convert_sumerian_decision:0 "Revive the Sumerian Pantheon"
+ convert_sumerian_decision_desc:0 "The primeval Sumerian gods were the first gods worshipped by men, and as such obviously hold superiority over others. The old ways have returned."
+ convert_sumerian_decision_confirm:0 "Revive the Sumerian Pantheon"
+ convert_sumerian_decision_tooltip:0 "Revives the Sumerian Pantheon"
+
+ convert_akkadian_decision:0 "Revive the Akkadian Pantheon"
+ convert_akkadian_decision_desc:0 "The Akkadian gods were the natural evolution of the Sumerian gods, and need to reestablish their supremacy."
+ convert_akkadian_decision_confirm:0 "Revive the Akkadian Pantheon"
+ convert_akkadian_decision_tooltip:0 "Revives the Akkadian Pantheon"
+
+ convert_babylonian_decision:0 "Revive the Babylonian Pantheon"
+ convert_babylonian_decision_desc:0 "The Babylonian Empire once stretched from Mesopotamia to Jerusalem, and their gods were worshipped across the empire. It is time they are worshipped once again."
+ convert_babylonian_decision_confirm:0 "Revive the Babylonian Pantheon"
+ convert_babylonian_decision_tooltip:0 "Revives the Babylonian Pantheon"
+
+ convert_assyrian_decision:0 "Revive the Assyrian Pantheon"
+ convert_assyrian_decision_desc:0 "The gods of Assyria were well established and had a strict hierarchy, and were worshipped for thousands of years. The time of the nailed god and the false prophet is over, and a new era is dawning."
+ convert_assyrian_decision_confirm:0 "Revive the Assyrian Pantheon"
+ convert_assyrian_decision_tooltip:0 "Revives the Assyrian Pantheon"
+
+ convert_canaanite_decision:0 "Revive the Canaanite Pantheon"
+ convert_canaanite_decision_desc:0 "The ancient gods of Canaan inspired the gods of the Jews, the Christians, and the Muslims. It is time we return to our roots and forsake the false gods. We must embrace 'Ēl and sacrafice to Ba'al once again."
+ convert_canaanite_decision_confirm:0 "Revive the Canaanite Pantheon"
+ convert_canaanite_decision_tooltip:0 "Revives the Canaanite Pantheon"
+
+ convert_yahwism_decision:0 "Revive Yahwism"
+ convert_yahwism_decision_desc:0 "Yahweh, 'Ēl Shaddai, 'Elyōn - these are the names of the god of gods. While the existence of the gods of Canaan cannot be denied, Yahweh must be worshipped as the supreme god."
+ convert_yahwism_decision_confirm:0 "Revive the Yahwism"
+ convert_yahwism_decision_tooltip:0 "Revives the Yahwism"
+ 
+ convert_philistinian_decision:0 "Revive the Philistinian Pantheon"
+ convert_philistinian_decision_desc:0 "The Philistines of old were oppressed and persecuted by the Hebrews, and it is time for the gods of the Philistines to once again rise and throw off the shackles of oppression and reclaim their rightful place in the world."
+ convert_philistinian_decision_confirm:0 "Revive the Philistinian Pantheon"
+ convert_philistinian_decision_tooltip:0 "Revives the Philistinian Pantheon"
+
+ convert_phoenician_decision:0 "Revive the Phoenician Pantheon"
+ convert_phoenician_decision_desc:0 "The ancient Phoenicians worshipped the gods of Canaan, but they incorporated aspects of their Greek neighbours. Who can deny the divinity of 'Elyōn The Most High and Athena? The time for a new era of faith has dawned."
+ convert_phoenician_decision_confirm:0 "Revive the Phoenician Pantheon"
+ convert_phoenician_decision_tooltip:0 "Revives the Phoenician Pantheon"
+
+ convert_punic_decision:0 "Revive the Punic Pantheon"
+ convert_punic_decision_desc:0 "The Punics, the children of the Phoenicians, masters of the Mediterranean, worshipped the gods of Canaan and Phoenicia, but recognised the supremacy of Ba'al Ḥammon and Tanit. It is time for us to recognise it as well."
+ convert_punic_decision_confirm:0 "Revive the Punic Pantheon"
+ convert_punic_decision_tooltip:0 "Revives the Punic Pantheon"
+
+ restore_kemet_decision:0 "Restore Kemet"
+ restore_kemet_decision_desc:0 "I can restore the ancient kingdom of Kemet to its rightful place of power and restore the ancient borders."
+ restore_kemet_decision_confirm:0 "Restore the Kingdom of Kemet"
+ restore_kemet_decision_tooltip:0 "Restores the Kingdom of Kemet"
+
+ restore_sumer_decision:0 "Restore Sumer"
+ restore_sumer_decision_desc:0 "I can restore the ancient kingdom of Sumer to its rightful place of power and restore the ancient borders."
+ restore_sumer_decision_confirm:0 "Restore the Kingdom of Sumer"
+ restore_sumer_decision_tooltip:0 "Restores the Kingdom of Sumer"
+
+ restore_akkadia_decision:0 "Restore Akkad"
+ restore_akkadia_decision_desc:0 "I can restore the ancient kingdom of Akkad to its rightful place of power and restore the ancient borders."
+ restore_akkadia_decision_confirm:0 "Restore the Kingdom of Akkad"
+ restore_akkadia_decision_tooltip:0 "Restores the Kingdom of Akkad"
+
+ restore_babylonia_decision:0 "Restore Babylon"
+ restore_babylonia_decision_desc:0 "I can restore the ancient kingdom of Babylon to its rightful place of power and restore the ancient borders."
+ restore_babylonia_decision_confirm:0 "Restore the Kingdom of Babylon"
+ restore_babylonia_decision_tooltip:0 "Restores the Kingdom of Babylon"
+
+ restore_assyria_decision:0 "Restore Assyria"
+ restore_assyria_decision_desc:0 "I can restore the ancient kingdom of Assyria to its rightful place of power and restore the ancient borders."
+ restore_assyria_decision_confirm:0 "Restore the Kingdom of Assyria"
+ restore_assyria_decision_tooltip:0 "Restores the Kingdom of Assyria"
+
+ restore_canaan_decision:0 "Unite Canaan"
+ restore_canaan_decision_desc:0 "I can unite the lands of ancient Canaan under a single Kingdom, and bring forth a new era of stability for the region."
+ restore_canaan_decision_confirm:0 "Unite Canaan"
+ restore_canaan_decision_tooltip:0 "Unites Canaan"
+
+ restore_phoenicia_decision:0 "Unite Phoenicia"
+ restore_phoenicia_decision_desc:0 "I can unite the lands of ancient Phoenicia under a single Kingdom, and bring forth a new era of stability for the region."
+ restore_phoenicia_decision_confirm:0 "Unite Phoenicia"
+ restore_phoenicia_decision_tooltip:0 "Unites Phoenicia"
+
+ restore_carthage_decision:0 "Restore Carthage"
+ restore_carthage_decision_desc:0 "I can restore the ancient kingdom of Carthage to its rightful place of power and restore the ancient borders."
+ restore_carthage_decision_confirm:0 "Restore the Kingdom of Carthage"
+ restore_carthage_decision_tooltip:0 "Restores the Kingdom of Carthage"
+
+ set_capital_giza_decision:0 "Claim Giza"
+ set_capital_giza_decision_desc:0 "As the Pharaoh of Kemet, I have a rightful claim on the ancient capital of the Kingdom of Kemet - the city of Memphis. Memphis has long since been abandoned, but Giza sits closeby, and makes for an appropriate substitute."
+ set_capital_giza_decision_confirm:0 "Restore the ancient capital"
+ set_capital_giza_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_amarna_decision:0 "Claim Amarna"
+ set_capital_amarna_decision_desc:0 "As the Pharaoh of Kemet under Aten, I have a rightful claim on the ancient capital of Pharaoh Akhetaten - Amarna. Although the city was abandoned shortly after the death of Akhetaten, Al-Bahnasa sits nearby and could make for an appropriate substitute"
+ set_capital_amarna_decision_confirm:0 "Restore the ancient capital"
+ set_capital_amarna_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_uruk_decision:0 "Claim Uruk"
+ set_capital_uruk_decision_desc:0 "The ancient city of Uruk was the birthplace of the Sumerian people and the rightful capital of Sumer - as the Lugal of Sumer, I have a rightful claim on the ancient capital of Uruk. Although the city sits abandoned today, we can claim Al-Qadisiya as an appropriate substitute."
+ set_capital_uruk_decision_confirm:0 "Restore the ancient capital"
+ set_capital_uruk_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_akkad_decision:0 "Claim Akkad"
+ set_capital_akkad_decision_desc:0 "As the Šarrum of Akkad, I have a rightful claim on the ancient Akkadian capital of Akkad. Although it has been abandoned and its location is unknown, the city of Baghdad makes sense as a substitute."
+ set_capital_akkad_decision_confirm:0 "Restore the ancient capital"
+ set_capital_akkad_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_babylon_decision:0 "Claim Babylon"
+ set_capital_babylon_decision_desc:0 "As the Šarrum of Babylon, I have a rightful claim on the ancient capital of Babylon. Although the city was abandoned centuries ago, the nearby city of Baghdad would make an appropriate substitute."
+ set_capital_babylon_decision_confirm:0 "Restore the ancient capital"
+ set_capital_babylon_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_assur_decision:0 "Claim Aššur"
+ set_capital_assur_decision_desc:0 "As the Šarrum of Assyria, I have a rightful claim to the ancient capital of Aššur. Most of the city was destroyed by the vile Persian Sassanids, and is a shell of its former self - the nearby city of Mosul would make for an appropriate substitute."
+ set_capital_assur_decision_confirm:0 "Restore the ancient capital"
+ set_capital_assur_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_hatzor_decision:0 "Claim Hatzor"
+ set_capital_hatzor_decision_desc:0 "As the Monarch of Canaan, I have a rightful claim to the ancient capital of Hatzor. The city was burned to the ground by the vile Assyrians when the foolish Hebrew Israelites rebelled - but the nearby city of Tiberias would make for an appropriate substitute."
+ set_capital_hatzor_decision_confirm:0 "Restore the ancient capital"
+ set_capital_hatzor_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_tyre_decision:0 "Claim Tyre"
+ set_capital_tyre_decision_desc:0 "As the Monarch of a united Phoenicia, I have a rightful claim to the ancient city of Tyre, which served as one of the most important Phoenician cities."
+ set_capital_tyre_decision_confirm:0 "Restore the ancient capital"
+ set_capital_tyre_decision_tooltip:0 "Restores the ancient capital"
+
+ set_capital_carthage_decision:0 "Claim Carthage"
+ set_capital_carthage_decision_desc:0 "As the Monarch of Carthage, I have a rightful claim to the ancient city of Carthage. Although the original city was massacred and burned to the ground by the vile Romans, the rebuilt city still stands today."
+ set_capital_carthage_decision_confirm:0 "Restore the ancient capital"
+ set_capital_carthage_decision_tooltip:0 "Restores the ancient capital"
+
+ create_samaria_kingdom_decision:0 "Restore Samaria"
+ create_samaria_kingdom_decision_confirm:0 "The Exodus will finally end!"
+ create_samaria_kingdom_decision_desc:0 "It is time for the Children of Samaria to found a new United Monarchy built around Jerusalem and the Promised Land, so that Samaritans may once more live together in peace and harmony."
+ create_samaria_kingdom_decision_tooltip:0 "The Kingdom of Samaria is restored."
+ create_samaria_kingdom_decision_effect_tooltip:0 "The Kingdom of Samaria is restored"
+
+ create_judah_kingdom_decision:0 "Restore Judah"
+ create_judah_kingdom_decision_confirm:0 "The Exodus will finally end!"
+ create_judah_kingdom_decision_desc:0 "It is time for the Children of Judah to found a new Kingdom built around Jerusalem and the Promised Land, so that children of Yahweh may once more live together in peace and harmony."
+ create_judah_kingdom_decision_tooltip:0 "The Kingdom of Judah is restored."
+ create_judah_kingdom_decision_effect_tooltip:0 "The Kingdom of Judah is restored"
+
+ create_philistine_kingdom_decision:0 "Restore Philistine"
+ create_philistine_kingdom_decision_confirm:0 "The Exodus will finally end!"
+ create_philistine_kingdom_decision_desc:0 "It is time for the Children of Philistine to found a new Kingdom built around Jerusalem and the Promised Land, so that Philistines may once more live together in peace and harmony."
+ create_philistine_kingdom_decision_tooltip:0 "The Kingdom of Philistine is restored."
+ create_philistine_kingdom_decision_effect_tooltip:0 "The Kingdom of Philistine is restored"
