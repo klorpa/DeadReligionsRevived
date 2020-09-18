@@ -63,3 +63,21 @@ k_carthage = {
 
 	capital = c_tunis
 }
+
+k_brython = {
+	color = { 58 158 117 }
+
+	capital = c_gloucestershire
+}
+
+k_na_gaeil = {
+	color = { 54 108 156 }
+
+	capital = c_dublin
+}
+
+k_gaul = {
+	color = { 4 135 74 }
+
+	capital = c_ile_de_france
+}

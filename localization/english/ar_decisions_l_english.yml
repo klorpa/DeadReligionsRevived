@@ -54,6 +54,26 @@
  convert_punic_decision_confirm:0 "Revive the Punic Pantheon"
  convert_punic_decision_tooltip:0 "Revives the Punic Pantheon"
 
+ convert_brythonic_decision:0 "Revive the Brythonic Pantheon"
+ convert_brythonic_decision_desc:0 "The Brythons - the Cornish, the Brittons, the Bretons - shared gods and cultures for hundreds of years. Demonized and oppressed by the Christians since the arrival of Christianity, it's time to expell the Latin trespassers and restore the gods of old."
+ convert_brythonic_decision_confirm:0 "Revive the Brythonic Pantheon"
+ convert_brythonic_decision_tooltip:0 "Revives the Brythonic Pantheon"
+
+ convert_gaelic_decision:0 "Revive the Gaelic Pantheon"
+ convert_gaelic_decision_desc:0 "The Gaels ruled Hibernia and Alba, and were by far the most advanced religion in the region. A pentheon of ancestors, spirits, and fae, the Gaels ruled with justice and bravery. The time to retake Hibernia from the Christian invaders is now - the Gaelic Pantheon will live again."
+ convert_gaelic_decision_confirm:0 "Revive the Gaelic Pantheon"
+ convert_gaelic_decision_tooltip:0 "Revives the Gaelic Pantheon"
+
+ convert_gaulish_decision:0 "Revive the Gaulish Pantheon"
+ convert_gaulish_decision_desc:0 "The Gauls once Northern Italy, France, Western Germany, and North-Eastern Iberia. Strong, proud, brave, and free, the Gauls ruled continental Europe for hundreds of years, even surviving the invasion of Rome, and it is time to return the the golden days of the old gods."
+ convert_gaulish_decision_confirm:0 "Revive the Gaulish Pantheon"
+ convert_gaulish_decision_tooltip:0 "Revives the Gaulish Pantheon"
+
+ convert_welsh_decision:0 "Revive the Welsh Pantheon"
+ convert_welsh_decision_desc:0 "The Welsh resisted the Christianisation of the Isles for hundreds of years, remaining pagan well after the rest of the the British Isles converted to Catholicism. The Welsh, although Brythonic, continued to evolve the Brythonic pantheon and localised almost all gods."
+ convert_welsh_decision_confirm:0 "Revive the Welsh Pantheon"
+ convert_welsh_decision_tooltip:0 "Revives the Welsh Pantheon"
+
  restore_kemet_decision:0 "Restore Kemet"
  restore_kemet_decision_desc:0 "I can restore the ancient kingdom of Kemet to its rightful place of power and restore the ancient borders."
  restore_kemet_decision_confirm:0 "Restore the Kingdom of Kemet"
@@ -93,6 +113,21 @@
  restore_carthage_decision_desc:0 "I can restore the ancient kingdom of Carthage to its rightful place of power and restore the ancient borders."
  restore_carthage_decision_confirm:0 "Restore the Kingdom of Carthage"
  restore_carthage_decision_tooltip:0 "Restores the Kingdom of Carthage"
+
+ restore_brython_decision:0 "Unite Brython"
+ restore_brython_decision_desc:0 "I can unite the lands of the ancient Brythonic people under a single Kingdom, and bring forth a new era of stability for the region."
+ restore_brython_decision_confirm:0 "Unite Brython"
+ restore_brython_decision_tooltip:0 "Unites Brython"
+
+ restore_na_gaeil_decision:0 "Unite Na Gaeil"
+ restore_na_gaeil_decision_desc:0 "I can unite the lands of the Gaels under a single Kingdom, and bring forth a new era of stability for the region."
+ restore_na_gaeil_decision_confirm:0 "Unite Na Gaeil"
+ restore_na_gaeil_decision_tooltip:0 "Unites Na Gaeil"
+
+ restore_gaul_decision:0 "Unite Gaul"
+ restore_gaul_decision_desc:0 "I can unite the lands of the ancient Gauls under a single Kingdom, and bring forth a new era of stability for the region."
+ restore_gaul_decision_confirm:0 "Unite Gaul"
+ restore_gaul_decision_tooltip:0 "Unites Gaul"
 
  set_capital_giza_decision:0 "Claim Giza"
  set_capital_giza_decision_desc:0 "As the Pharaoh of Kemet, I have a rightful claim on the ancient capital of the Kingdom of Kemet - the city of Memphis. Memphis has long since been abandoned, but Giza sits closeby, and makes for an appropriate substitute."
