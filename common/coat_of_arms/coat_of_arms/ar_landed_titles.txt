@@ -52,7 +52,7 @@ k_samaria = {
 		texture = "ce_menorah.dds"
 		color1 = "yellow"
 		color2 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 }
 
@@ -64,7 +64,7 @@ k_judah = {
 		texture = "ce_menorah.dds"
 		color1 = "orange"
 		color2 = "orange"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 }
 
@@ -102,5 +102,35 @@ k_carthage = {
 	colored_emblem = {
 		texture = "ce_ar_tanit.dds"
 		color1 = "white"
+	}
+}
+
+k_brython = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_ar_amfreville.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.75 0.75 }  }
+	}
+}
+
+k_gaul = {
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_ar_boar.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.47 } scale = { 0.8 0.8 }  }
+	}
+}
+
+k_na_gaeil = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_ar_dara.dds"
+		color1 = "yellow"
 	}
 }
