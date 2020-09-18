@@ -534,6 +534,15 @@
  celtic_religion_adherent_plural:2 "Celts"
  celtic_religion_desc:0 "The Celts covered a large amount of cultures, from the Gauls to the Gaels, the Britons to the Bretons, and the Picts to the Welsh. The gods of the Celts are as numerous and as varied as the cultures, but four tenets were core to the region; freedom, bravery, justice, and the sanctity of nature."
 
+ celtic_priest_male:0 "Priest"
+ celtic_priest_male_plural:0 "Priests"
+ celtic_priest_female:0 "Priestess"
+ celtic_priest_female_plural:0 "Priestesses"
+ celtic_priest_neuter:0 "Diviner"
+ celtic_priest_neuter_plural:0 "Diviners"
+ celtic_bishop_male:0 "Fetial"
+ celtic_bishop_male_plural:0 "Fetials"
+
  brythonic_high_god_name:0 "Taranis"
  brythonic_high_god_name_possessive:0 "Taranis'"
  brythonic_high_god_name_alternate:0 "Sky Father"
