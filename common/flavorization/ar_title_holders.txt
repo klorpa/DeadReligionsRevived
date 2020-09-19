@@ -2,7 +2,7 @@
 	type = character
 	special = holder
 	tier = empire
-	priority = 301
+	priority = 500
 	religions = { egyptian_religion }
 }
 
@@ -10,7 +10,7 @@ amyr = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 301
+	priority = 500
 	religions = { egyptian_religion }
 }
 
@@ -18,14 +18,14 @@ kemetic_duke = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 450
 	religions = { egyptian_religion }
 }
 
 kemetic_duchy = {
 	type = title
 	tier = duchy
-	priority = 50
+	priority = 450
 	religions = { egyptian_religion }
 }
 
@@ -33,28 +33,28 @@ kemetic_count = {
 	type = character
 	special = holder
 	tier = county
-	priority = 50
+	priority = 450
 	religions = { egyptian_religion }
 }
 
 kemetic_county = {
 	type = title
 	tier = county
-	priority = 50
+	priority = 450
 	religions = { egyptian_religion }
 }
 
 kemetic_barony = {
 	type = title
 	tier = barony
-	priority = 50
+	priority = 450
 	religions = { egyptian_religion }
 }
 
 kemetic_chaplain = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_court_chaplain
 	religions = { egyptian_religion }
 }
@@ -62,7 +62,7 @@ kemetic_chaplain = {
 kemetic_chancellor = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_chancellor
 	religions = { egyptian_religion }
 }
@@ -70,7 +70,7 @@ kemetic_chancellor = {
 kemetic_steward = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_steward
 	religions = { egyptian_religion }
 }
@@ -78,8 +78,16 @@ kemetic_steward = {
 kemetic_marshal = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_marshal
+	religions = { egyptian_religion }
+}
+
+kemetic_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
 	religions = { egyptian_religion }
 }
 
@@ -87,7 +95,7 @@ lugal-gal = {
 	type = character
 	special = holder
 	tier = empire
-	priority = 301
+	priority = 500
 	faiths = { sumerian_pagan }
 }
 
@@ -95,7 +103,7 @@ lugal = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 301
+	priority = 500
 	faiths = { sumerian_pagan }
 }
 
@@ -103,14 +111,14 @@ sumerian_duke = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 450
 	faiths = { sumerian_pagan }
 }
 
 sumerian_duchy = {
 	type = title
 	tier = duchy
-	priority = 50
+	priority = 450
 	faiths = { sumerian_pagan }
 }
 
@@ -118,28 +126,28 @@ sumerian_count = {
 	type = character
 	special = holder
 	tier = county
-	priority = 50
+	priority = 450
 	faiths = { sumerian_pagan }
 }
 
 sumerian_county = {
 	type = title
 	tier = county
-	priority = 50
+	priority = 450
 	faiths = { sumerian_pagan }
 }
 
 sumerian_barony = {
 	type = title
 	tier = barony
-	priority = 50
+	priority = 450
 	faiths = { sumerian_pagan }
 }
 
 sumerian_chaplain = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_court_chaplain
 	faiths = { sumerian_pagan }
 }
@@ -147,7 +155,7 @@ sumerian_chaplain = {
 sumerian_chancellor = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_chancellor
 	faiths = { sumerian_pagan }
 }
@@ -155,7 +163,7 @@ sumerian_chancellor = {
 sumerian_steward = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_steward
 	faiths = { sumerian_pagan }
 }
@@ -163,7 +171,7 @@ sumerian_steward = {
 sumerian_marshal = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_marshal
 	faiths = { sumerian_pagan }
 }
@@ -171,7 +179,7 @@ sumerian_marshal = {
 sumerian_spymaster = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_spymaster
 	faiths = { sumerian_pagan }
 }
@@ -187,21 +195,21 @@ sarrum-resum = {
 akkadian_empire = {
 	type = title
 	tier = empire
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan }
 }
 
 babylonian_empire = {
 	type = title
 	tier = empire
-	priority = 50
+	priority = 450
 	faiths = { babylonian_pagan }
 }
 
 assyrian_empire = {
 	type = title
 	tier = empire
-	priority = 50
+	priority = 450
 	faiths = { assyrian_pagan }
 }
 
@@ -209,28 +217,28 @@ sarru = {
 	type = character
 	special = holder
 	tier = kingdom
-	priority = 301
+	priority = 500
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
 akkadian_kingdom = {
 	type = title
 	tier = kingdom
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan }
 }
 
 babylonian_kingdom = {
 	type = title
 	tier = kingdom
-	priority = 50
+	priority = 450
 	faiths = { babylonian_pagan }
 }
 
 assyrian_kingdom = {
 	type = title
 	tier = kingdom
-	priority = 50
+	priority = 450
 	faiths = { assyrian_pagan }
 }
 
@@ -238,14 +246,14 @@ mesopotamian_duke = {
 	type = character
 	special = holder
 	tier = duchy
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
 mesopotamian_duchy = {
 	type = title
 	tier = duchy
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
@@ -253,28 +261,28 @@ mesopotamian_count = {
 	type = character
 	special = holder
 	tier = county
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
 mesopotamian_county = {
 	type = title
 	tier = county
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
 mesopotamian_barony = {
 	type = title
 	tier = barony
-	priority = 50
+	priority = 450
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
 
 mesopotamian_chaplain = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_court_chaplain
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
@@ -282,7 +290,7 @@ mesopotamian_chaplain = {
 mesopotamian_chancellor = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_chancellor
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
@@ -290,7 +298,7 @@ mesopotamian_chancellor = {
 mesopotamian_steward = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_steward
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
@@ -298,7 +306,7 @@ mesopotamian_steward = {
 mesopotamian_marshal = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_marshal
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
 }
@@ -306,7 +314,692 @@ mesopotamian_marshal = {
 mesopotamian_spymaster = {
 	type = character
 	special = councillor
-	priority = 299
+	priority = 499
 	council_position = councillor_spymaster
 	faiths = { akkadian_pagan babylonian_pagan assyrian_pagan }
+}
+
+milk-milak = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+milk = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+milkoth-milkiyuth = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+milkoth = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_empire = {
+	type = title
+	tier = empire
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_duchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_duchy = {
+	type = title
+	tier = duchy
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_county = {
+	type = title
+	tier = county
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_barony = {
+	type = title
+	tier = barony
+	priority = 450
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_chaplain = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_court_chaplain
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_chancellor = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_chancellor
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_steward = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_steward
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_marshal = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_marshal
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+phoenician_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
+	faiths = { canaanite_pagan phoenician_pagan punic_pagan }
+}
+
+melekh-mlakhim = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+melekh = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_empire = {
+	type = title
+	tier = empire
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_duke = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_duchy = {
+	type = title
+	tier = duchy
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_count = {
+	type = character
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_county = {
+	type = title
+	tier = county
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_barony = {
+	type = title
+	tier = barony
+	priority = 450
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_chaplain = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_court_chaplain
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_chancellor = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_chancellor
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_steward = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_steward
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_marshal = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_marshal
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+hebrew_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
+	faiths = { yahwism_pagan philistinian_pagan }
+}
+
+uchel_frenin = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+uchel_frenhines = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+frenin = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+frenhines = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_empire = {
+	type = title
+	tier = empire
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_duchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_duchy = {
+	type = title
+	tier = duchy
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_county = {
+	type = title
+	tier = county
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_barony = {
+	type = title
+	tier = barony
+	priority = 450
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_chaplain = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_court_chaplain
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_chancellor = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_chancellor
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_steward = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_steward
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_marshal = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_marshal
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+brythonic_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
+	faiths = { brythonic_pagan welsh_pagan }
+}
+
+ard_righ = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { gaelic_pagan }
+}
+
+ard_banrion = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { gaelic_pagan }
+}
+
+righ = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { gaelic_pagan }
+}
+
+banrion = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { gaelic_pagan }
+}
+
+gaelic_empire = {
+	type = title
+	tier = empire
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_duchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_duchy = {
+	type = title
+	tier = duchy
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_county = {
+	type = title
+	tier = county
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_barony = {
+	type = title
+	tier = barony
+	priority = 450
+	faiths = { gaelic_pagan }
+}
+
+gaelic_chaplain = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_court_chaplain
+	faiths = { gaelic_pagan }
+}
+
+gaelic_chancellor = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_chancellor
+	faiths = { gaelic_pagan }
+}
+
+gaelic_steward = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_steward
+	faiths = { gaelic_pagan }
+}
+
+gaelic_marshal = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_marshal
+	faiths = { gaelic_pagan }
+}
+
+gaelic_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
+	faiths = { gaelic_pagan }
+}
+
+gwelaunol = {
+	type = character
+	special = holder
+	tier = empire
+	priority = 500
+	faiths = { gaulish_pagan }
+}
+
+rich = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { gaulish_pagan }
+}
+
+rian = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 500
+	faiths = { gaulish_pagan }
+}
+
+gaulish_empire = {
+	type = title
+	tier = empire
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_kingdom = {
+	type = title
+	tier = kingdom
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_duchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_duchy = {
+	type = title
+	tier = duchy
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_county = {
+	type = title
+	tier = county
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_barony = {
+	type = title
+	tier = barony
+	priority = 450
+	faiths = { gaulish_pagan }
+}
+
+gaulish_chaplain = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_court_chaplain
+	faiths = { gaulish_pagan }
+}
+
+gaulish_chancellor = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_chancellor
+	faiths = { gaulish_pagan }
+}
+
+gaulish_steward = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_steward
+	faiths = { gaulish_pagan }
+}
+
+gaulish_marshal = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_marshal
+	faiths = { gaulish_pagan }
+}
+
+gaulish_spymaster = {
+	type = character
+	special = councillor
+	priority = 499
+	council_position = councillor_spymaster
+	faiths = { gaulish_pagan }
 }

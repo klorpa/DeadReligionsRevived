@@ -59,13 +59,15 @@
 		PriestFemalePlural = celtic_priest_female_plural
 		PriestNeuter = celtic_priest_male
 		PriestNeuterPlural = celtic_priest_male_plural
-		AltPriestTermPlural = christianity_priest_alternate_plural
+		AltPriestTermPlural = celtic_priest_male_plural
 		BishopMale = celtic_bishop_male
 		BishopMalePlural = celtic_bishop_male_plural
 		BishopFemale = celtic_priest_female
 		BishopFemalePlural = celtic_priest_female_plural
 		BishopNeuter = celtic_priest_male
 		BishopNeuterPlural = celtic_priest_male_plural
+		ReligiousHeadName = celtic_religious_head_title
+		ReligiousHeadTitleName = celtic_religious_head_title_name
 		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
@@ -192,8 +194,6 @@
 				DevilHerselfHimself = CHARACTER_HIMSELF
 				ReligiousSymbol = brythonic_religious_symbol
 				ReligiousText = brythonic_religious_text
-				ReligiousHeadName = brythonic_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
 				DivineRealm = brythonic_divine_realm
 				PositiveAfterLife = brythonic_afterlife_name
 				NegativeAfterLife = brythonic_afterlife_name
@@ -330,8 +330,6 @@
 				DevilHerselfHimself = CHARACTER_HIMSELF
 				ReligiousSymbol = gaelic_religious_symbol
 				ReligiousText = gaelic_religious_text
-				ReligiousHeadName = gaelic_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
 				DivineRealm = gaelic_divine_realm
 				PositiveAfterLife = gaelic_afterlife_name
 				NegativeAfterLife = gaelic_afterlife_name
@@ -470,8 +468,6 @@
 				DevilHerselfHimself = CHARACTER_HIMSELF
 				ReligiousSymbol = gaulish_religious_symbol
 				ReligiousText = gaulish_religious_text
-				ReligiousHeadName = gaulish_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
 				DivineRealm = gaulish_divine_realm
 				PositiveAfterLife = gaulish_afterlife_name
 				NegativeAfterLife = gaulish_afterlife_name
@@ -608,8 +604,6 @@
 				DevilHerselfHimself = CHARACTER_HIMSELF
 				ReligiousSymbol = welsh_religious_symbol
 				ReligiousText = welsh_religious_text
-				ReligiousHeadName = welsh_religious_head_title
-				ReligiousHeadTitleName = dualism_religious_head_title_name
 				DivineRealm = welsh_divine_realm
 				PositiveAfterLife = welsh_afterlife_name
 				NegativeAfterLife = welsh_afterlife_name
