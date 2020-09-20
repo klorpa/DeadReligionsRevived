@@ -2,7 +2,7 @@
 	pattern = "pattern_solid.dds"
 	color1 = "brown"
 	colored_emblem = {
-		texture = "ce_ar_ankh.dds"
+		texture = "ce_drr_ankh.dds"
 		color1 = "white"
 	}
 }
@@ -11,7 +11,7 @@ k_sumer = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	colored_emblem = {
-		texture = "ce_ar_sumer.dds"
+		texture = "ce_drr_sumer.dds"
 		color1 = "brown"
 	}
 }
@@ -20,7 +20,7 @@ k_akkadia = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	colored_emblem = {
-		texture = "ce_ar_sargon.dds"
+		texture = "ce_drr_sargon.dds"
 		color1 = "blue"
 	}
 }
@@ -29,7 +29,7 @@ k_babylonia = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue_light"
 	colored_emblem = {
-		texture = "ce_ar_babylon.dds"
+		texture = "ce_drr_babylon.dds"
 		color1 = "yellow"
 	}
 }
@@ -38,7 +38,7 @@ k_assyria = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	colored_emblem = {
-		texture = "ce_ar_ashur.dds"
+		texture = "ce_drr_ashur.dds"
 		color1 = "yellow"
 		color2 = "blue_light"
 	}
@@ -73,7 +73,7 @@ k_canaan = {
 	color1 = "orange"
 	color2 = "orange"
 	colored_emblem = {
-		texture = "ce_ar_canaan.dds"
+		texture = "ce_drr_canaan.dds"
 		color1 = "white"
 	}
 }
@@ -82,7 +82,7 @@ k_philistine = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
 	colored_emblem = {
-		texture = "ce_ar_dagon.dds"
+		texture = "ce_drr_dagon.dds"
 		color1 = "white"
 	}
 }
@@ -91,7 +91,7 @@ k_phoenicia = {
 	pattern = "pattern_solid.dds"
 	color1 = "purple"
 	colored_emblem = {
-		texture = "ce_ar_aleph.dds"
+		texture = "ce_drr_aleph.dds"
 		color1 = "yellow"
 	}
 }
@@ -100,7 +100,7 @@ k_carthage = {
 	pattern = "pattern_solid.dds"
 	color1 = "green"
 	colored_emblem = {
-		texture = "ce_ar_tanit.dds"
+		texture = "ce_drr_tanit.dds"
 		color1 = "white"
 	}
 }
@@ -109,7 +109,7 @@ k_brython = {
 	pattern = "pattern_solid.dds"
 	color1 = "black"
 	colored_emblem = {
-		texture = "ce_ar_amfreville.dds"
+		texture = "ce_drr_amfreville.dds"
 		color1 = "white"
 		instance = { position = { 0.5 0.45 } scale = { 0.75 0.75 }  }
 	}
@@ -119,7 +119,7 @@ k_gaul = {
 	pattern = "pattern_solid.dds"
 	color1 = "green"
 	colored_emblem = {
-		texture = "ce_ar_boar.dds"
+		texture = "ce_drr_boar.dds"
 		color1 = "red"
 		color2 = "yellow"
 		instance = { position = { 0.5 0.47 } scale = { 0.8 0.8 }  }
@@ -130,7 +130,7 @@ k_na_gaeil = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	colored_emblem = {
-		texture = "ce_ar_dara.dds"
+		texture = "ce_drr_dara.dds"
 		color1 = "yellow"
 	}
 }

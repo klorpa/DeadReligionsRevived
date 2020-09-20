@@ -1,10 +1,10 @@
 ﻿on_game_start_after_lobby = {
 	on_actions = {
-		on_ar_game_start
+		on_drr_game_start
 	}
 }
 
-on_ar_game_start = {
+on_drr_game_start = {
 	effect = {
 		if = {
 			limit = {
