@@ -1,10 +1,10 @@
-﻿namespace = ar_revival_events
+﻿namespace = drr_revival_events
 
 # Ancient religion has been revived!
-ar_revival_events.0001 = {
+drr_revival_events.0001 = {
 	type = character_event
-	title = ar_revival_events.0001.t
-	desc = ar_revival_events.0001.desc
+	title = drr_revival_events.0001.t
+	desc = drr_revival_events.0001.desc
 	theme = faith
 
 	left_portrait = {
@@ -18,7 +18,7 @@ ar_revival_events.0001 = {
 	}
 
 	option = {
-		name = ar_revival_events.0001.a
+		name = drr_revival_events.0001.a
 		faith = { change_fervor = 50 }
 	}
 }

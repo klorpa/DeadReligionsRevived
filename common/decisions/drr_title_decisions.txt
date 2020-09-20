@@ -2780,7 +2780,7 @@ create_samaria_kingdom_decision = {
 			create_samaria_scripted_effect = yes
 		}
 		trigger_event = {
-			id = ar_title_events.0001
+			id = drr_title_events.0001
 		}
 	}
 	
@@ -2836,7 +2836,7 @@ create_judah_kingdom_decision = {
 			create_judah_scripted_effect = yes
 		}
 		trigger_event = {
-			id = ar_title_events.1001
+			id = drr_title_events.1001
 		}
 	}
 	
@@ -2892,7 +2892,7 @@ create_philistine_kingdom_decision = {
 			create_philistine_scripted_effect = yes
 		}
 		trigger_event = {
-			id = ar_title_events.2001
+			id = drr_title_events.2001
 		}
 	}
 	

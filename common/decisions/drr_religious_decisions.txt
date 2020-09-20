@@ -98,7 +98,7 @@
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -195,7 +195,7 @@ convert_atenist_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -292,7 +292,7 @@ convert_sumerian_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -389,7 +389,7 @@ convert_akkadian_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -486,7 +486,7 @@ convert_babylonian_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -583,7 +583,7 @@ convert_assyrian_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -680,7 +680,7 @@ convert_canaanite_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -777,7 +777,7 @@ convert_yahwism_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -874,7 +874,7 @@ convert_philistinian_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -971,7 +971,7 @@ convert_phoenician_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -1068,7 +1068,7 @@ convert_punic_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -1165,7 +1165,7 @@ convert_brythonic_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -1262,7 +1262,7 @@ convert_gaelic_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -1359,7 +1359,7 @@ convert_gaulish_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }
 
@@ -1456,6 +1456,6 @@ convert_welsh_decision = {
 			}
 		}
 
-		trigger_event = ar_revival_events.0001
+		trigger_event = drr_revival_events.0001
 	}
 }

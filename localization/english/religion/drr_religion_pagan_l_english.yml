@@ -1,0 +1,9 @@
+l_english:
+ #Generic
+ generic_pagan_priest_male:0 "priest"
+ generic_pagan_priest_male_plural:0 "priests"
+ generic_pagan_priest_female:0 "priestess"
+ generic_pagan_priest_female_plural:0 "priestesses"
+ generic_pagan_religious_head_title:0 "High Priest"
+ generic_pagan_religious_head_title_name:0 "High Priesthood"
+ 
