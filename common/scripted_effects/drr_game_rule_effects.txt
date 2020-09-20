@@ -1472,6 +1472,62 @@ game_rule_paganify_world_effect = {
     }
 
     every_county_in_region = {
+		region = ghw_region_italy
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_italy
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:roman_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:roman_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:roman_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+
+            set_county_faith = faith:roman_pagan
+        }
+    }
+
+    every_county_in_region = {
 		region = world_india
         
         this.holder = {
