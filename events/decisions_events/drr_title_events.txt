@@ -1,9 +1,9 @@
-﻿namespace = ar_title_events
+﻿namespace = drr_title_events
 
-ar_title_events.0001 = {
+drr_title_events.0001 = {
 	type = character_event
-	title = ar_title_events.0001.t
-	desc = ar_title_events.0001.desc
+	title = drr_title_events.0001.t
+	desc = drr_title_events.0001.desc
 	theme = faith
 	left_portrait = {
 		character = scope:scoped_ruler
@@ -32,7 +32,7 @@ ar_title_events.0001 = {
 	}
 
 	option = {
-		name = ar_title_events.0001.a
+		name = drr_title_events.0001.a
 		add_prestige = major_prestige_gain
 		add_piety = major_piety_gain
 		faith = { change_fervor = 25 }
@@ -53,16 +53,16 @@ ar_title_events.0001 = {
 						}
 					}
 				}
-				trigger_event = ar_title_events.0002
+				trigger_event = drr_title_events.0002
 			}
 		}
 	}
 }
 
 # Players notified.
-ar_title_events.0002 = {
+drr_title_events.0002 = {
 	type = character_event
-	title = ar_title_events.0002.t
+	title = drr_title_events.0002.t
 	desc = {
 		first_valid = {
 			# Jewish Reaction
@@ -70,7 +70,7 @@ ar_title_events.0002 = {
 				trigger = {
 					root.faith.religion = scope:scoped_ruler.faith.religion
 				}
-				desc = ar_title_events.0001.desc
+				desc = drr_title_events.0001.desc
 			}
 			# Every other Muslim
 			triggered_desc = {
@@ -79,7 +79,7 @@ ar_title_events.0002 = {
 						root.faith.religion = scope:scoped_ruler.faith.religion
 					}
 				}
-				desc = ar_title_events.0001.desc.others
+				desc = drr_title_events.0001.desc.others
 			}
 		}
 	}
@@ -100,13 +100,13 @@ ar_title_events.0002 = {
 	}
 
 	option = {
-		name = ar_title_events.0002.a
+		name = drr_title_events.0002.a
 		trigger = {
 			faith = { religion_tag = judaism_religion }
 		}
 	}
 	option = {
-		name = ar_title_events.0002.b
+		name = drr_title_events.0002.b
 		trigger = {
 			NOT = {
 				faith = { religion_tag = judaism_religion }
@@ -115,10 +115,10 @@ ar_title_events.0002 = {
 	}
 }
 
-ar_title_events.1001 = {
+drr_title_events.1001 = {
 	type = character_event
-	title = ar_title_events.1001.t
-	desc = ar_title_events.1001.desc
+	title = drr_title_events.1001.t
+	desc = drr_title_events.1001.desc
 	theme = faith
 	left_portrait = {
 		character = scope:scoped_ruler
@@ -147,7 +147,7 @@ ar_title_events.1001 = {
 	}
 
 	option = {
-		name = ar_title_events.1001.a
+		name = drr_title_events.1001.a
 		add_prestige = major_prestige_gain
 		add_piety = major_piety_gain
 		faith = { change_fervor = 25 }
@@ -168,16 +168,16 @@ ar_title_events.1001 = {
 						}
 					}
 				}
-				trigger_event = ar_title_events.1002
+				trigger_event = drr_title_events.1002
 			}
 		}
 	}
 }
 
 # Players notified.
-ar_title_events.1002 = {
+drr_title_events.1002 = {
 	type = character_event
-	title = ar_title_events.1002.t
+	title = drr_title_events.1002.t
 	desc = {
 		first_valid = {
 			# Jewish Reaction
@@ -185,7 +185,7 @@ ar_title_events.1002 = {
 				trigger = {
 					root.faith = scope:scoped_ruler.faith
 				}
-				desc = ar_title_events.1001.desc
+				desc = drr_title_events.1001.desc
 			}
 			# Every other Muslim
 			triggered_desc = {
@@ -194,7 +194,7 @@ ar_title_events.1002 = {
 						root.faith = scope:scoped_ruler.faith
 					}
 				}
-				desc = ar_title_events.1001.desc.others
+				desc = drr_title_events.1001.desc.others
 			}
 		}
 	}
@@ -215,13 +215,13 @@ ar_title_events.1002 = {
 	}
 
 	option = {
-		name = ar_title_events.1002.a
+		name = drr_title_events.1002.a
 		trigger = {
 			faith = root.faith
 		}
 	}
 	option = {
-		name = ar_title_events.1002.b
+		name = drr_title_events.1002.b
 		trigger = {
 			NOT = {
 				faith = root.faith
@@ -230,10 +230,10 @@ ar_title_events.1002 = {
 	}
 }
 
-ar_title_events.2001 = {
+drr_title_events.2001 = {
 	type = character_event
-	title = ar_title_events.2001.t
-	desc = ar_title_events.2001.desc
+	title = drr_title_events.2001.t
+	desc = drr_title_events.2001.desc
 	theme = faith
 	left_portrait = {
 		character = scope:scoped_ruler
@@ -262,7 +262,7 @@ ar_title_events.2001 = {
 	}
 
 	option = {
-		name = ar_title_events.2001.a
+		name = drr_title_events.2001.a
 		add_prestige = major_prestige_gain
 		add_piety = major_piety_gain
 		faith = { change_fervor = 25 }
@@ -283,16 +283,16 @@ ar_title_events.2001 = {
 						}
 					}
 				}
-				trigger_event = ar_title_events.2002
+				trigger_event = drr_title_events.2002
 			}
 		}
 	}
 }
 
 # Players notified.
-ar_title_events.2002 = {
+drr_title_events.2002 = {
 	type = character_event
-	title = ar_title_events.2002.t
+	title = drr_title_events.2002.t
 	desc = {
 		first_valid = {
 			# Jewish Reaction
@@ -300,7 +300,7 @@ ar_title_events.2002 = {
 				trigger = {
 					root.faith = scope:scoped_ruler.faith
 				}
-				desc = ar_title_events.2001.desc
+				desc = drr_title_events.2001.desc
 			}
 			# Every other Muslim
 			triggered_desc = {
@@ -309,7 +309,7 @@ ar_title_events.2002 = {
 						root.faith = scope:scoped_ruler.faith
 					}
 				}
-				desc = ar_title_events.2001.desc.others
+				desc = drr_title_events.2001.desc.others
 			}
 		}
 	}
@@ -330,13 +330,13 @@ ar_title_events.2002 = {
 	}
 
 	option = {
-		name = ar_title_events.2002.a
+		name = drr_title_events.2002.a
 		trigger = {
 			faith = root.faith
 		}
 	}
 	option = {
-		name = ar_title_events.2002.b
+		name = drr_title_events.2002.b
 		trigger = {
 			NOT = {
 				faith = root.faith
