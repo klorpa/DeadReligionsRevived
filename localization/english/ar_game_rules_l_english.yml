@@ -1,0 +1,8 @@
+﻿l_english:
+ rule_paganify_world:0 "Paganify World"
+ setting_paganify_world_no:0 "No"
+ setting_paganify_world_no_desc:0 "Characters and Counties have historical Faiths."
+ setting_paganify_world_yes:0 "Yes"
+ setting_paganify_world_yes_desc:0 "Characters and Counties will be assigned an appropriate regional Pagan Faith."
+ setting_paganify_world_new:0 "New Only"
+ setting_paganify_world_new_desc:0 "Characters and Counties will only be assigned newly added Pagan Faiths."
