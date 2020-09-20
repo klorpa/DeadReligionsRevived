@@ -296,7 +296,7 @@
 				PantheonTermHasHave = pantheon_term_has
 				GoodGodNames = { atenist_high_god_name }
 				DevilName = kemetism_high_god_name
-				DevilNamePossessive = kemetism_high_god_name
+				DevilNamePossessive = kemetism_high_god_name_possessive
 				EvilGodNames = { kemetism_high_god_name }
 				ReligiousText = atenist_religious_text
 				
@@ -310,6 +310,111 @@
 				WitchGodHerHim = CHARACTER_HERHIM_HER
 				WitchGodMistressMaster = mistress
 				WitchGodMotherFather = mother
+			}
+		}
+
+		serapist_pagan = {
+			color = { 0.9 0.8 0.4 }
+			icon = serapist
+			reformed_icon = serapist_reformed
+
+			holy_site = alexandria
+			holy_site = giza
+			holy_site = qus
+			holy_site = thessalonika
+			holy_site = athens
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_adaptive
+			doctrine = tenet_astrology
+
+			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_witchcraft_accepted
+
+			holy_order_names = {
+				{ name = "holy_order_serapis_knights" }
+				{ name = "holy_order_order_of_isis" }
+				{ name = "holy_order_warriors_of_amun_ra" }
+			}
+
+			localization = {
+				#High God Name
+				HighGodName = serapist_high_god_name
+				HighGodNamePossessive = serapist_high_god_name_possessive
+				HighGodNameAlternate = serapist_high_god_name_alternate
+				HighGodNameAlternatePossessive = serapist_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = serapist_creator_god_name
+				CreatorNamePossessive = serapist_creator_god_name_possessive
+
+				#HealthGod
+				HealthGodName = serapist_health_god_name
+				HealthGodNamePossessive = serapist_health_god_name_possessive
+				
+				#FertilityGod
+				FertilityGodName = serapist_fertility_god_name
+				FertilityGodNamePossessive = serapist_fertility_god_name_possessive
+
+				#WealthGod
+				WealthGodName = serapist_wealth_god_name
+				WealthGodNamePossessive = serapist_wealth_god_name_possessive
+
+				#HouseholdGod
+				HouseholdGodName = serapist_household_god_name
+				HouseholdGodNamePossessive = serapist_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#FateGod
+				FateGodName = serapist_fate_god_name
+				FateGodNamePossessive = serapist_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_HE
+				FateGodHerHis = CHARACTER_HERHIS_HIS
+				FateGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = serapist_knowledge_god_name
+				KnowledgeGodNamePossessive = serapist_knowledge_god_name_possessive
+
+				#WarGod
+				WarGodName = serapist_war_god_name
+				WarGodNamePossessive = serapist_war_god_name_possessive
+
+				#TricksterGod
+				TricksterGodName = serapist_trickster_god_name
+				TricksterGodNamePossessive = serapist_trickster_god_name_possessive
+
+				#NightGod
+				NightGodName = serapist_night_god_name
+				NightGodNamePossessive = serapist_night_god_name_possessive
+
+				#WaterGod
+				WaterGodName = serapist_water_god_name
+				WaterGodNamePossessive = serapist_water_god_name_possessive
+
+				PantheonTerm = religion_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { serapist_good_god_amun serapist_good_god_isis serapist_good_god_horus serapist_good_god_ptolemy serapist_good_god_athena serapist_good_god_alexander serapist_good_god_nut serapist_good_god_atum serapist_good_god_set serapist_good_god_ba }
+				DevilName = serapist_devil_name
+				DevilNamePossessive = serapist_devil_name_possessive
+				EvilGodNames = { serapist_evil_god_kek serapist_evil_god_amheh serapist_evil_god_erinyes }
+				ReligiousSymbol = kemetism_religious_symbol
+				ReligiousText = serapist_religious_text
+				
+				DeathDeityName = serapist_death_deity_name
+				DeathDeityNamePossessive = serapist_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
 			}
 		}
 	}

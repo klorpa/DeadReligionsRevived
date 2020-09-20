@@ -76,7 +76,7 @@ k_na_gaeil = {
 	capital = c_dublin
 }
 
-e_gaul = {
+k_gaul = {
 	color = { 4 135 74 }
 
 	capital = c_ile_de_france

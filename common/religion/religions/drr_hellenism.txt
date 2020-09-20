@@ -152,11 +152,11 @@
 			icon = hellenic
 			reformed_icon = hellenic_reformed
 
-			holy_site = rome
+			holy_site = thessalonika
 			holy_site = athens
 			holy_site = sparta
 			holy_site = alexandria
-			holy_site = carthage
+			holy_site = chania
 
 			doctrine = unreformed_faith_doctrine
 
@@ -239,7 +239,7 @@
 
 			holy_site = rome
 			holy_site = athens
-			holy_site = sparta
+			holy_site = byzantion
 			holy_site = alexandria
 			holy_site = carthage
 

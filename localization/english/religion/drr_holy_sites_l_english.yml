@@ -110,3 +110,9 @@
  holy_site_denbighshire_effect_name:0 "From [holy_site|E] #weak ($holy_site_denbighshire_name$)#!"
  holy_site_sir_faesyfed_name:0 "Sir Faesyfed"
  holy_site_sir_faesyfed_effect_name:0 "From [holy_site|E] #weak ($holy_site_sir_faesyfed_name$)#!"
+
+ #Roman
+ holy_site_byzantion_name:0 "Constantinople"
+ holy_site_byzantion_effect_name:0 "From [holy_site|E] #weak ($holy_site_byzantion_name$)#!"
+ holy_site_thessalonika_name:0 "Thessalonika"
+ holy_site_thessalonika_effect_name:0 "From [holy_site|E] #weak ($holy_site_thessalonika_name$)#!"

@@ -1775,7 +1775,7 @@ restore_gaul_decision = {
         is_independent_ruler = yes
 
         NOT = {
-            exists = title:e_gaul.holder
+            exists = title:k_gaul.holder
         }
 	}
 
@@ -1849,7 +1849,7 @@ restore_gaul_decision = {
 			set_title_and_vassal_change_type = created
 		}
 
-		title:e_gaul = {
+		title:k_gaul = {
 			change_title_holder = {
 				holder = root
 				change = scope:change
@@ -1859,80 +1859,138 @@ restore_gaul_decision = {
 		resolve_title_and_vassal_change = scope:change
 
 		hidden_effect = {
+			save_scope_as = founder
+			primary_title = {
+				save_scope_as = old_title
+			}
+
+			create_dynamic_title = {
+				tier = empire
+				name = "Gaul"
+			}
+
 			create_title_and_vassal_change = change
-			
+
 			scope:change = {
 				set_title_and_vassal_change_type = created
 			}
-			
-			title:e_gaul = {
+
+			scope:new_title = {
 				change_title_holder = {
 					holder = root
 					change = scope:change
 				}
 			}
-			
-			resolve_title_and_vassal_change = scope:change
 
-			set_primary_title_to = title:e_gaul
+			resolve_title_and_vassal_change = scope:change
 
 			every_held_title = {
 				limit = {
-					tier = tier_empire
-
-					NOT = {
-						this = title:e_gaul 
-					}
+					tier = tier_kingdom
 				}
-
-				root = { destroy_title = prev }
+				
+				set_de_jure_liege_title = scope:new_title
 			}
 
-			title:d_normandy = { set_de_jure_liege_title = title:e_gaul }
-			title:d_anjou = { set_de_jure_liege_title = title:e_gaul }
-			title:d_poitou = { set_de_jure_liege_title = title:e_gaul }
-			title:d_aquitaine = { set_de_jure_liege_title = title:e_gaul }
-			title:d_gascogne = { set_de_jure_liege_title = title:e_gaul }
-			title:d_armagnac = { set_de_jure_liege_title = title:e_gaul }
-			title:d_languedoc = { set_de_jure_liege_title = title:e_gaul }
-			title:d_toulouse = { set_de_jure_liege_title = title:e_gaul }
-			title:d_auvergne = { set_de_jure_liege_title = title:e_gaul }
-			title:d_bourbon = { set_de_jure_liege_title = title:e_gaul }
-			title:d_berry = { set_de_jure_liege_title = title:e_gaul }
-			title:d_orleans = { set_de_jure_liege_title = title:e_gaul }
-			title:d_valois = { set_de_jure_liege_title = title:e_gaul }
-			title:d_flanders = { set_de_jure_liege_title = title:e_gaul }
-			title:d_brabant = { set_de_jure_liege_title = title:e_gaul }
-			title:d_julich = { set_de_jure_liege_title = title:e_gaul }
-			title:d_lower_lorraine = { set_de_jure_liege_title = title:e_gaul }
-			title:d_champagne = { set_de_jure_liege_title = title:e_gaul }
-			title:d_bar = { set_de_jure_liege_title = title:e_gaul }
-			title:d_burgundy = { set_de_jure_liege_title = title:e_gaul }
-			title:d_upper_burgundy = { set_de_jure_liege_title = title:e_gaul }
-			title:d_dauphine = { set_de_jure_liege_title = title:e_gaul }
-			title:d_provence = { set_de_jure_liege_title = title:e_gaul }
-			title:d_savoie = { set_de_jure_liege_title = title:e_gaul }
-			title:d_transjurania = { set_de_jure_liege_title = title:e_gaul }
-			title:d_alsace = { set_de_jure_liege_title = title:e_gaul }
-			title:d_upper_lorraine = { set_de_jure_liege_title = title:e_gaul }
-			title:d_luxembourg = { set_de_jure_liege_title = title:e_gaul }
-			title:d_currezia = { set_de_jure_liege_title = title:e_gaul }
-			title:d_swabia = { set_de_jure_liege_title = title:e_gaul }
-			title:d_bavaria = { set_de_jure_liege_title = title:e_gaul }
-			title:d_salzburg = { set_de_jure_liege_title = title:e_gaul }
-			title:d_tyrol = { set_de_jure_liege_title = title:e_gaul }
-			title:d_augsburg = { set_de_jure_liege_title = title:e_gaul }
-			title:d_carinthia = { set_de_jure_liege_title = title:e_gaul }
-			title:d_steyermark = { set_de_jure_liege_title = title:e_gaul }
-			title:d_krain = { set_de_jure_liege_title = title:e_gaul }
-			title:d_friuli = { set_de_jure_liege_title = title:e_gaul }
-			title:d_verona = { set_de_jure_liege_title = title:e_gaul }
-			title:d_lombardia = { set_de_jure_liege_title = title:e_gaul }
-			title:d_piedmonte = { set_de_jure_liege_title = title:e_gaul }
-			title:d_genoa = { set_de_jure_liege_title = title:e_gaul }
-			title:d_emilia = { set_de_jure_liege_title = title:e_gaul }
-			title:d_osterreich = { set_de_jure_liege_title = title:e_gaul }
+			every_sub_realm_county = {
+				limit = {
+					exists = kingdom
+					NOT = { exists = kingdom.holder }
+					holder.top_liege = root
+					kingdom = {
+						save_temporary_scope_as = test_kingdom
+					}
+					holder.top_liege = {
+						completely_controls = scope:test_kingdom
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							kingdom = {
+								is_in_list = additional_de_jure_kingdoms
+							}
+						}
+					}
+					kingdom = {
+						set_de_jure_liege_title = scope:new_title
+						add_to_list = additional_de_jure_kingdoms
+					}
+				}
+			}
+
+			scope:new_title = {
+				set_title_name = title:k_gaul
+				set_coa = title:k_gaul
+				set_color_from_title = title:k_gaul
+				set_capital_county = title:k_gaul.title_capital_county
+			}
+
+			set_primary_title_to = scope:new_title
+
+			title:d_normandy = { set_de_jure_liege_title = title:k_gaul }
+			title:d_anjou = { set_de_jure_liege_title = title:k_gaul }
+			title:d_poitou = { set_de_jure_liege_title = title:k_gaul }
+			title:d_aquitaine = { set_de_jure_liege_title = title:k_gaul }
+			title:d_gascogne = { set_de_jure_liege_title = title:k_gaul }
+			title:d_armagnac = { set_de_jure_liege_title = title:k_gaul }
+			title:d_languedoc = { set_de_jure_liege_title = title:k_gaul }
+			title:d_toulouse = { set_de_jure_liege_title = title:k_gaul }
+			title:d_auvergne = { set_de_jure_liege_title = title:k_gaul }
+			title:d_bourbon = { set_de_jure_liege_title = title:k_gaul }
+			title:d_berry = { set_de_jure_liege_title = title:k_gaul }
+			title:d_orleans = { set_de_jure_liege_title = title:k_gaul }
+			title:d_valois = { set_de_jure_liege_title = title:k_gaul }
+			title:d_flanders = { set_de_jure_liege_title = title:k_gaul }
+			title:d_brabant = { set_de_jure_liege_title = title:k_gaul }
+			title:d_julich = { set_de_jure_liege_title = title:k_gaul }
+			title:d_lower_lorraine = { set_de_jure_liege_title = title:k_gaul }
+			title:d_champagne = { set_de_jure_liege_title = title:k_gaul }
+			title:d_bar = { set_de_jure_liege_title = title:k_gaul }
+			title:d_burgundy = { set_de_jure_liege_title = title:k_gaul }
+			title:d_upper_burgundy = { set_de_jure_liege_title = title:k_gaul }
+			title:d_dauphine = { set_de_jure_liege_title = title:k_gaul }
+			title:d_provence = { set_de_jure_liege_title = title:k_gaul }
+			title:d_savoie = { set_de_jure_liege_title = title:k_gaul }
+			title:d_transjurania = { set_de_jure_liege_title = title:k_gaul }
+			title:d_alsace = { set_de_jure_liege_title = title:k_gaul }
+			title:d_upper_lorraine = { set_de_jure_liege_title = title:k_gaul }
+			title:d_luxembourg = { set_de_jure_liege_title = title:k_gaul }
+			title:d_currezia = { set_de_jure_liege_title = title:k_gaul }
+			title:d_swabia = { set_de_jure_liege_title = title:k_gaul }
+			title:d_bavaria = { set_de_jure_liege_title = title:k_gaul }
+			title:d_salzburg = { set_de_jure_liege_title = title:k_gaul }
+			title:d_tyrol = { set_de_jure_liege_title = title:k_gaul }
+			title:d_augsburg = { set_de_jure_liege_title = title:k_gaul }
+			title:d_carinthia = { set_de_jure_liege_title = title:k_gaul }
+			title:d_steyermark = { set_de_jure_liege_title = title:k_gaul }
+			title:d_krain = { set_de_jure_liege_title = title:k_gaul }
+			title:d_friuli = { set_de_jure_liege_title = title:k_gaul }
+			title:d_verona = { set_de_jure_liege_title = title:k_gaul }
+			title:d_lombardia = { set_de_jure_liege_title = title:k_gaul }
+			title:d_piedmonte = { set_de_jure_liege_title = title:k_gaul }
+			title:d_genoa = { set_de_jure_liege_title = title:k_gaul }
+			title:d_emilia = { set_de_jure_liege_title = title:k_gaul }
+			title:d_osterreich = { set_de_jure_liege_title = title:k_gaul }
 		}
+
+		every_held_title = {
+			limit = {
+				NOR = {
+					this = root.primary_title
+					this = title:k_gaul
+				}
+				
+                OR = {
+                    tier = tier_kingdom
+                    tier = tier_empire
+                }
+            }
+
+            root = {
+                destroy_title = prev
+            }
+        }
 	}
 }
 

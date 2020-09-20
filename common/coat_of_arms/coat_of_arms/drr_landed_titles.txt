@@ -115,7 +115,7 @@ k_brython = {
 	}
 }
 
-e_gaul = {
+k_gaul = {
 	pattern = "pattern_solid.dds"
 	color1 = "green"
 	colored_emblem = {
