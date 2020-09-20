@@ -1,0 +1,1579 @@
+﻿game_rule_paganify_new_effect = {
+	every_county_in_region = {
+        region = custom_gaels
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_gaels
+                    }
+                }
+
+                set_character_faith = faith:gaelic_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:gaelic_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:gaelic_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:gaelic_pagan
+    }
+    
+    every_county_in_region = {
+		region = custom_brythons
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_brythons
+                    }
+                }
+
+                set_character_faith = faith:brythonic_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:brythonic_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:brythonic_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:brythonic_pagan
+    }
+    
+    every_county_in_region = {
+		region = custom_gauls
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_gauls
+                    }
+                }
+
+                set_character_faith = faith:gaulish_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:gaulish_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:gaulish_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:gaulish_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_welsh
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_welsh
+                    }
+                }
+
+                set_character_faith = faith:welsh_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:welsh_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:welsh_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:welsh_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_assyrians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_assyrians
+                    }
+                }
+
+                set_character_faith = faith:assyrian_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:assyrian_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:assyrian_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:assyrian_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_babylonians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_babylonians
+                    }
+                }
+
+                set_character_faith = faith:babylonian_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:babylonian_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:babylonian_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:babylonian_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_akkadians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_akkadians
+                    }
+                }
+
+                set_character_faith = faith:akkadian_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:akkadian_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:akkadian_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:akkadian_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_sumerians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_sumerians
+                    }
+                }
+
+                set_character_faith = faith:sumerian_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:sumerian_pagan
+                }
+
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:sumerian_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:sumerian_pagan
+    }
+    
+    every_county_in_region = {
+		region = custom_kemites
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_kemites
+                    }
+                }
+
+                set_character_faith = faith:kemetic_pagan
+                
+                every_courtier = {
+                    set_character_faith = faith:kemetic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:kemetic_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:kemetic_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_canaanites
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_canaanites
+                    }
+                }
+
+                set_character_faith = faith:canaanite_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:canaanite_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:canaanite_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:canaanite_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_phoenicians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_phoenicians
+                    }
+                }
+
+                set_character_faith = faith:phoenician_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:phoenician_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:phoenician_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:phoenician_pagan
+    }
+    
+    every_county_in_region = {
+		region = custom_yahwists
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_yahwists
+                    }
+                }
+
+                set_character_faith = faith:yahwism_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:yahwism_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:yahwism_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:yahwism_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_philistinians
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_philistinians
+                    }
+                }
+
+                set_character_faith = faith:philistinian_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:philistinian_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:philistinian_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:philistinian_pagan
+    }
+
+    every_county_in_region = {
+		region = custom_punics
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    capital_province = {
+                        geographical_region = custom_punics
+                    }
+                }
+
+                set_character_faith = faith:punic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:punic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:punic_pagan
+                }
+            }
+        }
+
+        set_county_faith = faith:punic_pagan
+	}
+}
+
+game_rule_paganify_world_effect = {
+    every_county_in_region = {
+		region = custom_roman_full_borders
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = custom_roman_full_borders
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:hellenic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:hellenic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:hellenic_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:hellenic_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_russia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_russia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:finnish_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:finnish_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:finnish_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:finnish_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_finland_&_estonia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_finland_&_estonia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:finnish_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:finnish_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:finnish_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:finnish_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = world_steppe
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = world_steppe
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:tengri_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:tengri_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:tengri_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:finnish_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_germany
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_germany
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:norse_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:norse_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:norse_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:norse_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = custom_frisia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = custom_frisia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:norse_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:norse_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:norse_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:norse_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_scandinavia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_scandinavia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:norse_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:norse_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:norse_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:norse_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = custom_slavia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = custom_slavia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:slavic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:slavic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:slavic_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:slavic_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_baltic
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_baltic
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:baltic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:baltic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:baltic_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:baltic_pagan
+        }
+    }
+   
+    every_county_in_region = {
+		region = world_persian_empire
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = world_persian_empire
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:mazdayasna
+
+                every_courtier = {
+                    set_character_faith = faith:mazdayasna
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:mazdayasna
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:mazdayasna
+        }
+    }
+    
+    every_county_in_region = {
+		region = ghw_region_arabia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_arabia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:mazdayasna
+
+                every_courtier = {
+                    set_character_faith = faith:mazdayasna
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:mazdayasna
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:mazdayasna
+        }
+    }
+    
+    every_county_in_region = {
+		region = ghw_region_eastern_sahara
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_eastern_sahara
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:west_african_bori_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:west_african_bori_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:west_african_bori_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+            
+            set_county_faith = faith:west_african_bori_pagan
+        }
+    }
+    
+    every_county_in_region = {
+		region = ghw_region_western_sahara
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_western_sahara
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:west_african_bidu_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+            
+            set_county_faith = faith:west_african_bidu_pagan
+        }
+    }
+    
+    every_county_in_region = {
+		region = world_africa_north_west
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = world_africa_north_west
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:west_african_bidu_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+            
+            set_county_faith = faith:west_african_bidu_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = world_africa_west
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = world_africa_west
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:west_african_bidu_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:west_african_bidu_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+            
+            set_county_faith = faith:west_african_bidu_pagan
+        }
+    }
+    
+    every_county_in_region = {
+		region = world_africa_east
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = world_africa_east
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                            faith = faith:hellenic_pagan
+                        }
+                    }
+                }
+
+                set_character_faith = faith:waaqism_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:waaqism_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:waaqism_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                    faith = faith:hellenic_pagan
+                }
+            }
+
+            set_county_faith = faith:waaqism_pagan
+        }
+    }
+    
+    every_county_in_region = {
+		region = ghw_region_italy
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_italy
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:hellenic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:hellenic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:hellenic_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+            
+            set_county_faith = faith:hellenic_pagan
+        }
+    }
+    
+    every_county_in_region = {
+		region = ghw_region_balkans
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_balkans
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:hellenic_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:hellenic_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:hellenic_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:hellenic_pagan
+        }
+    }
+
+    every_county_in_region = {
+		region = ghw_region_iberia
+        
+        this.holder = {
+            if = {
+                limit = {
+                    faith.religious_head = this
+                }
+
+                destroy_title = faith.religious_head_title
+            }
+            
+            if = {
+                limit = {
+                    AND = {
+                        capital_province = {
+                            geographical_region = ghw_region_iberia
+                        }
+
+                        OR = {
+                            faith.religion = religion:christianity_religion
+                            faith.religion = religion:islam_religion
+                        }
+                    }
+                }
+
+                set_character_faith = faith:gaulish_pagan
+
+                every_courtier = {
+                    set_character_faith = faith:gaulish_pagan
+                }
+                
+                every_vassal = {
+                    limit = {
+                        highest_held_title_tier = tier_barony
+                    }
+                    
+                    set_character_faith = faith:gaulish_pagan
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    faith.religion = religion:christianity_religion
+                    faith.religion = religion:islam_religion
+                }
+            }
+
+            set_county_faith = faith:gaulish_pagan
+        }
+    }
+}

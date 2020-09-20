@@ -1,0 +1,9 @@
+﻿paganify_world = {
+	default = paganify_world_no
+
+	paganify_world_no = { }
+
+	paganify_world_yes = { }
+
+	paganify_world_new = { }
+}

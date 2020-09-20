@@ -1,0 +1,27 @@
+﻿on_game_start_after_lobby = {
+	on_actions = {
+		on_ar_game_start
+	}
+}
+
+on_ar_game_start = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = paganify_world_yes
+			}
+
+			game_rule_paganify_world_effect = yes
+		}
+		
+		if = {
+			limit = { 
+				NOT = {
+					has_game_rule = paganify_world_no
+				}
+			}
+
+			game_rule_paganify_new_effect = yes
+		}
+	}
+}
